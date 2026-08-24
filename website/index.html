@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AWS E-Commerce</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>AWS Store</h1>
+    <p>EC2 + API Gateway + Lambda</p>
+</header>
+
+<main>
+
+    <div class="product">
+        <h2>MacBook Pro</h2>
+        <p>$1899</p>
+        <button onclick="selectProduct(1)">
+            View Product
+        </button>
+    </div>
+
+    <div class="product">
+        <h2>iPhone Pro</h2>
+        <p>$1299</p>
+        <button onclick="selectProduct(2)">
+            View Product
+        </button>
+    </div>
+
+    <div class="product">
+        <h2>Samsung Galaxy</h2>
+        <p>$999</p>
+        <button onclick="selectProduct(3)">
+            View Product
+        </button>
+    </div>
+
+</main>
+
+<div id="result"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
