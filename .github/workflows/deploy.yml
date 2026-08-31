@@ -37,7 +37,7 @@ jobs:
       - name: Build Docker image
         run: |
           docker build \
-            -t ${{ env.ECR_REPOSITORY }}:2.0  \
+            -t ${{ env.ECR_REPOSITORY }}:2.0 .  \
             
 
       - name: Tag Docker image
