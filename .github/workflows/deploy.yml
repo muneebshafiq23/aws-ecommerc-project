@@ -38,7 +38,7 @@ jobs:
         run: |
           docker build \
             -t ${{ env.ECR_REPOSITORY }}:2.0  \
-            ./aws-ecommerce-project
+            ./lambda
 
       - name: Tag Docker image
         run: |
