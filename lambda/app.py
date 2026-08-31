@@ -3,7 +3,7 @@ import json
 products = {
     "1": {
         "id": 1,
-        "name": "MacBook Pro",
+        "name": "MacBook Pro m4",
         "price": 1899,
         "category": "Laptops",
         "stock": 12
